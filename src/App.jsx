@@ -1,24 +1,29 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Product from './pages/Product'
-import Pricing from './pages/Pricing'
-import Homepage from './pages/Homepage'
-import AppLayaout from './pages/AppLayaout'
-import PageNotFound from './pages/PageNotFound'
-import Login from './pages/Login'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Product from "./pages/Product";
+import Pricing from "./pages/Pricing";
+import Homepage from "./pages/Homepage";
+import AppLayaout from "./pages/AppLayaout";
+import PageNotFound from "./pages/PageNotFound";
+import Login from "./pages/Login";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/"       element={<Homepage />} />
+        <Route index element={<Homepage />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="product" element={<Product />} />
-        <Route path="login"   element={<Login/>} />
-        <Route path="app"     element={<AppLayaout/>} />
-        <Route path="*"       element={<PageNotFound />} />
+        <Route path="login" element={<Login />} />
+        <Route path="app" element={<AppLayaout />}>
+          <Route index element={<p>LIST</p>} />
+          <Route path="cities" element={<p>List of cities</p>} />
+          <Route path="countries" element={<p>List of Countries</p>} />
+          <Route path="form" element={<p>FORM</p>} />
+        </Route>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
