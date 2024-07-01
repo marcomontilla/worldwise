@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,55 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "b05a",
+      "cityName": "Atlanta",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-01T13:56:58.711Z",
+      "notes": "asdasdasdasdasd",
+      "position": {
+        "lat": "33.93453817019981",
+        "lng": "-84.46218824143727"
+      }
+    },
+    {
+      "id": "cff6",
+      "cityName": "Fort Benning",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-01T13:59:50.281Z",
+      "notes": "",
+      "position": {
+        "lat": "32.37130617704801",
+        "lng": "-84.87304065749683"
+      }
+    },
+    {
+      "id": "7afe",
+      "cityName": "Lanett",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-01T14:02:24.458Z",
+      "notes": "",
+      "position": {
+        "lat": "32.8662146091547",
+        "lng": "-85.27517943714189"
+      }
+    },
+    {
+      "id": "905d",
+      "cityName": "Atlanta",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-01T14:04:35.424Z",
+      "notes": "",
+      "position": {
+        "lat": "33.775165595514416",
+        "lng": "-84.34101512759976"
+      }
     }
   ]
 }
