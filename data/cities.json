@@ -35,6 +35,18 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
+    },
+    {
+      "id": "ddbc",
+      "cityName": "Atlanta",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-07-03T16:11:28.675Z",
+      "notes": "Work",
+      "position": {
+        "lat": "33.90603627761711",
+        "lng": "-84.45924282073976"
+      }
     }
   ]
 }

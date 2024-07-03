@@ -22,7 +22,7 @@ function reducer(state, action) {
     case "loading":
       return {
         ...state,
-        isLoading: false,
+        isLoading: true,
       };
 
     case "cities/loaded":
