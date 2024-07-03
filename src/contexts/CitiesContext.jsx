@@ -128,6 +128,8 @@ function CitiesProvider({ children }) {
   }
 
   async function deleteCity(id) {
+    dispatch({ type: "loading" });
+
     try {
       await fetch(`${BASE_URL}/cities/${id}`, {
         method: "DELETE",
